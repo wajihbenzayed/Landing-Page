@@ -114,3 +114,27 @@
 	font-weight: 400;
 	display: inline;
 }
+.quote-section {
+	background-color: #e5e7eb;
+	padding: 10% 20%;
+	display: flex;
+	justify-content: center;
+}
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	width: 850px;
+	gap: 10px;
+}
+.quote-text {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1f2937;
+}
+.quote-author {
+	text-align: end;
+	font-weight: 700;
+	font-size: 24px;
+	margin-right: 75px;
+}
