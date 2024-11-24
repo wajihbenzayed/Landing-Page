@@ -171,3 +171,11 @@
 	color: white;
 	font-weight: 700;
 }
+.footer {
+	background-color: #1f2937;
+}
+.footer-text {
+	text-align: center;
+	padding: 20px;
+	color: #f9faf8;
+}
