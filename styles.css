@@ -55,6 +55,7 @@
 	font-size: 48px;
 	font-weight: 900;
 	margin: 0;
+	padding: 0;
 }
 .hero-p {
 	color: #e5e7eb;
@@ -70,6 +71,7 @@
 	font-weight: 700;
 	font-size: 18px;
 	cursor: pointer;
+	margin-top: 10px;
 }
 .main {
 	display: flex;
@@ -137,4 +139,35 @@
 	font-weight: 700;
 	font-size: 24px;
 	margin-right: 75px;
+}
+.call-to-action-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10% 15%;
+}
+.call-to-action-container {
+	background-color: #3b82f6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	padding: 50px 100px;
+	border-radius: 10px;
+	color: white;
+}
+.item1 {
+	font-weight: 700;
+	font-size: 22px;
+}
+.item2 {
+	font-weight: 300;
+}
+.button-container button {
+	border: 2px solid white;
+	border-radius: 6px;
+	padding: 6px 30px;
+	background-color: transparent;
+	color: white;
+	font-weight: 700;
 }
